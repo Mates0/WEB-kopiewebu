@@ -1,0 +1,365 @@
+@font-face
+{
+    font-family: miso-bold;
+    src: url("miso-bold.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    position: relative;
+    font-family: miso-bold;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    top: -5px;
+    padding-left: 18.75%;
+}
+
+.topcontainer {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #505050;
+}
+
+.iconsleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 85%;
+    position: relative;
+    top: -63px;
+    right: 19%;
+}
+
+.first-text {
+    font-family: miso-bold;
+    position: relative;
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+    top: 33%;
+}
+
+.first-background {
+    background-color: #00bff3;
+    background-image: url("ground.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
+
+.first-container {
+    background-image: url("interactive-resume.png");
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-interactive {
+    margin-top: 0;
+    line-height: 0.5%;
+    padding-bottom: 0.75%;
+}
+
+.title-resume {
+    line-height: 0.5%;
+}
+
+.first-subtext {
+    font-family: Arial;
+    position: relative;
+    color: white;
+    top: 33%;
+    width: 360px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.first-button a {
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    font-family: Arial;
+    font-weight: bold;
+    top: 230px;
+    padding: 12px;
+    margin-right: 87%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.second-text {
+    font-family: miso-bold;
+    position: relative;
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+    top: 35.5%;
+    margin-left: 70%;
+}
+
+.second-container {
+    background-image: url("illustration-portfolio.png");
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-background {
+    background-color: #f9bf3b;
+}
+
+.title-illustration {
+    margin-top: 0;
+    line-height: 0.5%;
+    padding-bottom: 2.5%;
+}
+
+.title-portfolio {
+    line-height: 0.5%;
+}
+
+.second-subtext {
+    font-family: Arial;
+    position: relative;
+    color: white;
+    top: 35.5%;
+    width: 360px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 70%;
+}
+
+.second-button a {
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    font-family: Arial;
+    font-weight: bold;
+    top: 245px;
+    padding: 12px;
+    margin-left: 87%;
+    right: 17%;
+    text-align: center;
+}
+
+.third-text {
+    font-family: miso-bold;
+    position: relative;
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+    top: 33%;
+}
+
+.third-container {
+    background-image: url("design-portfolio.jpg");
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-design {
+    margin-top: 0;
+    line-height: 0.5%;
+    padding-bottom: 0.75%;
+}
+
+.title-portfoliothree {
+    line-height: 0.5%;
+}
+
+.third-subtext {
+    font-family: Arial;
+    position: relative;
+    color: white;
+    top: 33%;
+    width: 360px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.third-button a {
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    font-family: Arial;
+    font-weight: bold;
+    top: 230px;
+    padding: 12px;
+    margin-right: 87%;
+    text-align: center;
+}
+
+.third-background {
+    background-image: url("design-portfolio-background.jpg");
+    width: 100%;
+}
+
+.konec-background {
+    position: relative;
+    width: 100%;
+    background-color: #505050;
+}
+
+.about-text {
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 20px;
+    margin-left: 55%;
+    right: 25%;
+    bottom: 125px;
+}
+
+.about-title {
+    margin: 0;
+    color: white;
+    font-family: miso-bold;
+    position: relative;
+}
+
+.about-title {
+    margin-top: 25px;
+}
+
+.tutorial-title {
+    margin: 0;
+    color: white;
+    font-family: miso-bold;
+    position: relative;
+}
+
+.tutorial-title {
+    margin-top: 25px;
+}
+
+.contact-title {
+    margin: 0;
+    color: white;
+    font-family: miso-bold;
+    position: relative;
+}
+
+.contact-title {
+    margin-top: 25px;
+}
+
+.clouds {
+    position: relative;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-image: url("design-portfolio-cloud.png");
+}
+
+.konec-titles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 13%;
+}
+
+.about-subtext {
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 20px;
+    width: 11%;
+    padding-left: 18%;
+    bottom: 140px;
+}
+
+.tutorial-subtext {
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 20px;
+    width: 19%;
+    right: 4%;
+    bottom: 140px;
+}
+
+.contact-subtext {
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 20px;
+    width: 21%;
+    bottom: 140px;
+    right: 7.25%;
+}
+
+.konec-subtexts {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+.design-portfolio {
+    font-weight: bold;
+}
+
+.avatar {
+    position: relative;
+    margin-left: 18%;
+}
+
+.iconsbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 72%;
+    position: relative;
+    top: -100px;
+    margin-right: 35%;
+}
+
+.icon-bottomface{
+    padding-right: 15px;
+}
+
+.icon-bottomtwitter {
+    padding-right: 15px;
+}
+
+.icon-bottomdribble {
+    padding-right: 15px;
+}
+
+.icon-bottomlinkedin {
+    padding-right: 15px;
+}
+
+.icon-bottomemail {
+    padding-right: 15px;
+}
